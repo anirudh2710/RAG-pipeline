@@ -1,0 +1,5 @@
+Memo: Corporate Policy on Remote Work (Effective Jan 2026)
+
+While the company values flexibility, the "Core Collaboration Hours" (CCH) have been updated. Employees must be online between 10:00 AM and 2:00 PM EST. However, this does not apply to the DevOps team, who follow a "Follow-the-Sun" model.
+
+Paradoxically, while productivity increased by 12% during the pilot program, employee satisfaction scores dipped slightly due to "digital fatigue." To combat this, the "No-Meeting Fridays" initiative was introduced, though it is often bypassed during the final week of a fiscal quarter.
