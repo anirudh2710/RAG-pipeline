@@ -1,4 +1,4 @@
-# Traditional RAG Pipeline
+# Advanced RAG Pipeline
 
 A robust Retrieval-Augmented Generation (RAG) system built with LangChain, FAISS, and Groq. This pipeline allows you to ingest documents (PDF, TXT, etc.) and perform high-speed semantic searches followed by AI-powered summarization.
 
