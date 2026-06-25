@@ -114,18 +114,18 @@ class RAGSearch:
         
         prompt = f"""You are a helpful, professional AI assistant answering questions based strictly on the provided context.
 
-Context:
-{context}
+        Context:
+        {context}
 
-User Query: {query}
+        User Query: {query}
 
-Instructions:
-1. Answer the user query using only the provided context.
-2. Provide precise, direct answers.
-3. Cite the document names and page numbers in your answer when referencing facts (e.g., "[document_name.pdf, Page X]").
-4. If the provided context does not contain the answer, state: "I cannot find the answer in the provided documents." and do not speculate or hallucinate.
+        Instructions:
+        1. Answer the user query using only the provided context.
+        2. Provide precise, direct answers.
+        3. Cite the document names and page numbers in your answer when referencing facts (e.g., "[document_name.pdf, Page X]").
+        4. If the provided context does not contain the answer, state: "I cannot find the answer in the provided documents." and do not speculate or hallucinate.
 
-Answer:"""
+        Answer:"""
         
         response = self.llm.invoke([prompt])
         return response.content
